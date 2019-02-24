@@ -5,6 +5,14 @@ const Container = styled.main`
   display: flex;
   margin-top: 5vh;
   flex-direction: column;
+
+  @media (max-width: 996px) {
+    width: 60vw;
+  }
+
+  @media (max-width: 768px) {
+    width: 80vw;
+  }
 `
 
 const Wrapper = styled.div`

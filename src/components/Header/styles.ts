@@ -12,6 +12,10 @@ const Title = styled.h1`
   color: #000;
   margin: 0;
   grid-column: title;
+
+  @media (max-width: 768px) {
+    grid-column: title/-1;
+  }
 `
 
 const List = styled.nav`
@@ -19,6 +23,11 @@ const List = styled.nav`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  @media (max-width: 768px) {
+    grid-column: links/1;
+    justify-content: flex-start;
+  }
 `
 
 const ListItem = styled.a`
