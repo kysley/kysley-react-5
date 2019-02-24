@@ -39,7 +39,7 @@ export default {
       minRatio: 0.8,
     }),
     new HtmlWebpackPlugin({
-      title: 'Scribe.',
+      title: 'Evan Kysley.',
       // favicon: path.join(__dirname, 'assets', 'img', 'favicon.ico'),
       template: path.join(__dirname, 'src', 'index.ejs'),
       minify: {
